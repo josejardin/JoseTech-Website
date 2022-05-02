@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+.d-grid {
+  display: grid;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+select {
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+select {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+iframe {
+  border: none;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.section-gap {
+  padding: 4.5rem 0;
+}
+@media screen and (max-width:767px) {
+  .section-gap {
+    padding: 3.5rem 0;
+  }
+}
+@media screen and (max-width:480px) {
+  .section-gap {
+    padding: 3rem 0;
+  }
+}
+h3.global-title {
+  font-size: 40px;
+  line-height: 45px;
+  color: #16191e;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+@media screen and (max-width:767px) {
+  h3.global-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width:600px) {
+  h3.global-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width:500px) {
+  h3.global-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+.contact-form {
+  background: #eee;
+}
+.field {
+  margin-bottom: 20px;
+}
+.form-mid {
+  background: #fff;
+  padding: 3rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.19), 0 10px 10px rgba(0,0,0,0.19);
+}
+.form-mid form input,
+.form-mid form textarea {
+  background: #f8f9fa;
+  border: 2px solid rgba(216, 216, 216, 0.3);
+  color: #777;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 4px;
+  height: 55px;
+}
+.form-mid form textarea {
+  resize: none;
+  min-height: 140px;
+}
+.form-mid form input:focus,
+.form-mid form textarea:focus {
+  outline: none;
+  border: 2px solid #051b35;
+  background: #fff;
+  box-shadow: none;
+}
+.btton {
+    background: #f800004b;
+    border: none;
+    color: #000;
+    font-size: 1vw;
+    padding: 15px 20px;
+    width: 50%;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.btton:hover {
+    background: #ca2c2c4b;
+}
+.ctnt-font-change {
+  font-family: 'Chakra Petch', sans-serif;
+  letter-spacing: 3px;
+}
+@media(max-width: 568px) {
+  .form-mid {
+    padding: 1.5rem;
+  }
+}
+@media(max-width: 999px) {
+    .btton {
+        font-size: 3vw;
+        width: 70%;
+    }
+}
+.contact-bg {
+    background-image: url('../pictures/contact-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.icon-links {
+    font-size: 2rem;
+    letter-spacing: 10px;
+}

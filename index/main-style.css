@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.center {
+  position: relative;
+  top: 10rem;
+  color: #fc766aff !important;
+}
+.head-text {
+  letter-spacing: 15px;
+  font-size: 8vw;
+  font-weight: 600;
+}
+.head-text-2 {
+  letter-spacing: 5px; 
+  font-size: 5vw;
+}
+.head-text-3 {
+  letter-spacing: 3px;
+  font-size: 3vw;
+  font-weight: 600;
+  color: #184a45ff;
+}
+.copy {
+  font-size: 0.6em;
+}
+.countdown {
+  font-size: 50px;
+}
+/* ----------------- Background Animation ----------------- */
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(255, 255, 255) 50%, rgb(190, 190, 190) 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+  }
+  
+  .bg3 {
+    animation-duration: 3s;
+  }
+  .bg1 {
+    animation: slide 2s ease-in-out infinite alternate;
+    background-image: linear-gradient(20deg, rgb(255, 255, 255) 50%, rgb(190, 190, 190) 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .bg4 {
+    animation-direction: alternate-reverse;
+    animation-duration: 3s;
+  }
+  
+  .bg5 {
+    animation-duration: 4s;
+  }/* ----------------- End Background Animation ----------------- */
+
+/* ----------------- Transition ----------------- */
+.cover {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: -100vw;
+  z-index: 100;
+}
+.transition.slide .cover1 {
+  background-color: #fff;
+  animation: slide 0.3s ease-in-out forwards;
+}
+.transition.slide .cover2 {
+  background-color: #716F81;
+  animation: slide 0.3s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+.transition.slide .cover3 {
+  background-color: #333;
+  animation: slide 0.3s ease-in-out forwards;
+  animation-delay: 0.6s;
+}
+@keyframes slide {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}/* ----------------- End Transitionn ----------------- */
+
+/* ----------------- Mobile Size ----------------- */
+@media only screen and (max-width: 800px) {
+  .head-text {
+    font-size: 12vw;
+  }
+  .head-text-2 {
+    font-size: 7vw;
+  }
+  .head-text-3 {
+    font-size: 5vw;
+  }
+  .countdown {
+    font-size: 20px;
+  }
+}
