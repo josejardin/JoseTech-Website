@@ -57,7 +57,7 @@ class Typings {
 //});
 
 // Setup End Date for Countdown (getTime == Time in Milleseconds)
-let launchDate = new Date("June, 18 2022 24:00:00").getTime();
+let launchDate = new Date("June, 19 2022 01:00:00").getTime();
 
 // Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
